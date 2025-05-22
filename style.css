@@ -302,9 +302,7 @@ h1{
 
 @media (max-width: 722px){
 
-    body{
-        zoom: 220%;
-    }
+    
 
     h1{
       font-size: 1.3rem; 
@@ -389,9 +387,6 @@ h1{
 
 @media (max-width: 581px){
 
-    body{
-        zoom: 240%;
-    }
 
     h1{
       font-size: 0.6rem; 
