@@ -15,11 +15,12 @@ html,body{
     position: relative;
     display: flex;
     justify-content: center;
-    top: 200px;
+    top: 15%;
     width: 50%;
-    max-width: 800px;
+    
     height: 100px;
     margin: 0 auto;
+   
     border-radius: 16px;
     z-index: 0;
     background-color: #3d4263;
@@ -27,15 +28,15 @@ html,body{
 }
 
 #list-container{
-    position: absolute;
+    position: relative;
     display: flex;
     left: 25%;
-    top: 405px;
+    top: 13%;
     flex-direction: column;
     background-color: #3d4263;
     height: auto;
     width: 50%;
-    max-width: 800px;
+    
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     align-items: center;
@@ -231,14 +232,16 @@ h1{
 }
 
 #message{
+    position: relative;
     text-align: center;
     color:red;
     font-family:'Courier New', monospace;
     margin: 0 auto;
-    top: 20px;
-    width: 25%;
+    top: 12%;
     font-weight: 800;
+    width: 100%;
     
+
    
     
     
@@ -252,10 +255,7 @@ h1{
       font-size: 3rem;  
     }
 
-    #list-container{
-        position: absolute;
-        top: 360px;
-    }
+    
 
     label{ 
         font-size: 0.5rem;
@@ -292,6 +292,11 @@ h1{
         font-size: 0.6rem;
     }
 
+    #message{
+        font-size: 0.6rem;
+        top: 14%;
+    }
+
     
     
 
@@ -311,12 +316,8 @@ h1{
       top: 40px; 
     }
 
-    #list-container{
-        position: absolute;
-        top: 150px;
-        width: 50%;
-        left: 25%;
-    }
+    
+    
 
     label{ 
         font-size: 0.3rem;
@@ -344,22 +345,17 @@ h1{
     #text{
         height: 18px;
         font-size: 0.3rem;
-        margin-top: 0.5rem;
+        margin-top: 0.75rem;
 
     }
 
     #submit{
         height: 20.25px;
         font-size: 0.3rem;
-        margin-top: 0.5rem;
+        margin-top: 0.75rem;
     }
 
-    #form{
-        position: absolute;
-        top: 100px;
-        left: 25%;
-        height: 80px;
-    }
+    
 
     #message{
         font-size: 0.4rem;
@@ -380,12 +376,33 @@ h1{
 
     }
 
-    
+    #form{
+        height: 40px;
+        border-radius: 8px;
+    }
+
+    #list-container{
+        border-radius: 4px;
+        top: 14%;
+    }
 
     
+    
 
+   
+    
+    
+    
 
 }
+
+
+    
+
+    
+
+
+
 
 @media (max-width: 581px){
 
@@ -395,13 +412,7 @@ h1{
       top: 70px; 
     }
 
-    #list-container{
-        position: absolute;
-        top: 119px;
-        width: 50%;
-        left: 25%;
-        border-radius: 4px;
-    }
+    
 
     label{ 
         font-size: 0.15rem;
@@ -428,23 +439,20 @@ h1{
     
 
     #text{
-        height: 9px;
+        height: 15px;
         font-size: 0.2rem;
         
 
     }
 
     #submit{
-        height: 11px;
+        height: 17px;
         font-size: 0.16rem;
         width: 15%;
     }
 
     #form{
-        position: absolute;
-        top: 100px;
-        left: 25%;
-        height: 30px;
+        height: 20px;
         border-radius: 4px;
     }
 
@@ -466,6 +474,16 @@ h1{
     text-decoration: line-through;
     text-decoration-thickness: 0.5px;
 
+    }
+
+    #form{
+        height: 40px;
+        border-radius: 6px;
+    }
+
+    #list-container{
+        border-radius: 4px;
+        top: 14%;
     }
 
 
