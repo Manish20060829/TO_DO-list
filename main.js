@@ -152,6 +152,7 @@ function Myfunction(e){
     items.push(x.value.toLowerCase().trim());
     storage.push(x.value.trim());
     msg.innerHTML = "";
+    x.value = "";
     
 
     button.addEventListener("click", function (){
